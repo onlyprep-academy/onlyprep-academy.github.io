@@ -2,36 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only Prep Academy</title>
     <link rel="stylesheet" href="styles.css">
-    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
-    <title>Onlyprep Academy</title>
 </head>
-    
 <body>
-    <header>
-        <nav>
-            <div class="logo"><a href="#">Onlyprep Academy</div>
-            <div class="toggle_menu">
-                <i class='bx  bx-grid'  ></i> 
-            </div>
-            <ul class="nav_list">
-                <div class="close_menu">
-                    <i class='bx  bx-x'  ></i> 
+
+    <div class="navbar">
+        <!-- Logo -->
+        <a href="#" class="logo">Onlyprep.</a>
+
+        <!-- Navigation Menu -->
+        <div class="menu">
+            <a href="#">Home</a>
+            <div class="dropdown">
+                <a href="#">Courses</a>
+                <div class="dropdown-content">
+                    <a href="#">Web Development</a>
+                    <a href="#">Data Science</a>
+                    <a href="#">AI & ML</a>
+                    <a href="#">Graphic Design</a>
                 </div>
-                <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
-                <li class="nav_item"><a href="#" class="nav_link dropdown_link">Courses <i class='bx  bx-chevron-down dropdown_icon'  ></i> </a></li>
-                <li class="nav_item"><a href="#" class="nav_link">Resources</a></li>
-                <li class="nav_item"><a href="#" class="nav_link">About</a></li>
-                <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+            </div>
+            <div class="dropdown">
+                <a href="#">Resources</a>
+                <div class="dropdown-content">
+                    <a href="#">Blog</a>
+                    <a href="#">Documentation</a>
+                    <a href="#">Community</a>
+                    <a href="#">Webinars</a>
+                </div>
+            </div>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
 
+        <!-- Call to Action Button -->
+        <div class="cta">
+            <button id="cta-button">Get Started</button>
+        </div>
+    </div>
 
+    <!-- Page Content -->
+    <div style="padding: 100px 20px;">
+        <h1>Welcome to Onlyprep Academy</h1>
+        <p>Explore our courses, resources, and more.</p>
+    </div>
 
     <script src="script.js"></script>
+
 </body>
-    
 </html>
