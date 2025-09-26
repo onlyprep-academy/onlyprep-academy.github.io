@@ -1,1 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onlyprep Academy</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <i class="bx bxs-graduation"></i>
+        <span>Onlyprep Academy</span>
+      </a>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#courses" class="nav-link">Courses</a></li>
+          <li><a href="#why" class="nav-link">Why Us</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#get-started" class="cta-btn">Get Started</a>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="bx bx-menu"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content container">
+      <h1>Learn Smarter with <span>Onlyprep Academy</span></h1>
+      <p>Your trusted partner in academic success. Join today and prepare with the best.</p>
+      <a href="#courses" class="hero-btn">Explore Courses</a>
+    </div>
+  </section>
+
+  <!-- ===== COURSES SECTION ===== -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <h2 class="section-title">Our Courses</h2>
+      <div class="course-grid">
+        <article class="course-card">
+          <i class="bx bx-book-open course-icon"></i>
+          <h3>Mathematics</h3>
+          <p>Master problem-solving with expert-led sessions.</p>
+        </article>
+        <article class="course-card">
+          <i class="bx bx-flask course-icon"></i>
+          <h3>Science</h3>
+          <p>Explore physics, chemistry, and biology in depth.</p>
+        </article>
+        <article class="course-card">
+          <i class="bx bx-globe course-icon"></i>
+          <h3>Languages</h3>
+          <p>Improve communication with tailored language classes.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US SECTION ===== -->
+  <section class="why" id="why">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <i class="bx bx-user-voice"></i>
+          <h3>Expert Teachers</h3>
+          <p>Learn from experienced faculty with proven teaching excellence.</p>
+        </div>
+        <div class="why-card">
+          <i class="bx bx-laptop"></i>
+          <h3>Modern Learning</h3>
+          <p>Interactive online and offline sessions for flexibility.</p>
+        </div>
+        <div class="why-card">
+          <i class="bx bx-target-lock"></i>
+          <h3>Personalized Approach</h3>
+          <p>Tailored programs to match your pace and learning style.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS SECTION ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="section-title">What Our Students Say</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial active">
+          <p>“Onlyprep Academy helped me boost my grades and gain confidence. The teachers are amazing!”</p>
+          <h4>– Riya Sharma</h4>
+        </div>
+        <div class="testimonial">
+          <p>“The personalized approach made learning so much easier. Highly recommend!”</p>
+          <h4>– Arjun Mehta</h4>
+        </div>
+        <div class="testimonial">
+          <p>“Great experience! The interactive classes kept me engaged throughout.”</p>
+          <h4>– Priya Singh</h4>
+        </div>
+      </div>
+      <div class="testimonial-controls">
+        <button id="prevBtn"><i class="bx bx-left-arrow-alt"></i></button>
+        <button id="nextBtn"><i class="bx bx-right-arrow-alt"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about">
+    <div class="container about-container">
+      <div class="about-text">
+        <h2 class="section-title">About Us</h2>
+        <p>At Onlyprep Academy, we believe in personalized learning that adapts to every student’s pace. Our expert faculty and modern resources ensure the best preparation for your academic journey.</p>
+        <a href="#contact" class="about-btn">Learn More</a>
+      </div>
+      <div class="about-image">
+        <img src="assets/images/logo.png" alt="About Onlyprep Academy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="form-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2025 Onlyprep Academy. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Scripts -->
+  <script src="assets/script.js"></script>
+</body>
+</html>
 
